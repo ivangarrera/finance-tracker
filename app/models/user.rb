@@ -29,4 +29,6 @@ class User < ActiveRecord::Base
     user_stocks.where(stock_id: stock.id).exists?
   end
 
+
+
 end
